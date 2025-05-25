@@ -36,5 +36,5 @@ cd forsit-backend-api
 python -m venv venv
 # On Windows:
 .\venv\Scripts\activate
-
+Now run this command in root folder:  uvicorn app.main:app --reload    
 pip install -r requirements.txt
