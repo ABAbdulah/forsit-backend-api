@@ -31,12 +31,10 @@ A backend API for managing products, sales analytics, and inventory for an e-com
 
 ```bash
 git clone https://github.com/ABAbdulah/forsit-backend-api
-cd forsit-backend-task
+cd forsit-backend-api
 
 python -m venv venv
 # On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
+.\venv\Scripts\activate
 
 pip install -r requirements.txt
