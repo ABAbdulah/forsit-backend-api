@@ -30,7 +30,7 @@ A backend API for managing products, sales analytics, and inventory for an e-com
 1. **Clone the repo** and create a virtual environment:
 
 ```bash
-git clone https://github.com/your-username/forsit-backend-task.git
+git clone https://github.com/ABAbdulah/forsit-backend-api
 cd forsit-backend-task
 
 python -m venv venv
