@@ -1,1 +1,42 @@
-# forsit-backend-api
+# 🛒 Forsit E-commerce Admin API
+
+A backend API for managing products, sales analytics, and inventory for an e-commerce admin dashboard.
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: FastAPI (Python)
+- **Database**: MongoDB (Cloud - MongoDB Atlas)
+- **API Style**: RESTful
+- **ORM/Driver**: Motor (async MongoDB client)
+
+---
+
+## 📦 Features
+
+- ✅ Product Management (CRUD)
+- 📊 Sales Tracking & Revenue Summary (daily, weekly, monthly, yearly)
+- 📈 Sales Filtering by Date, Product, Category
+- 📦 Inventory Management with Low Stock Alerts
+- 📝 Inventory Change Logs
+- 🧪 Demo Data Seed Script
+- 📚 Swagger API Documentation
+
+---
+
+## 🛠 Setup Instructions
+
+1. **Clone the repo** and create a virtual environment:
+
+```bash
+git clone https://github.com/your-username/forsit-backend-task.git
+cd forsit-backend-task
+
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
