@@ -46,6 +46,6 @@ async def seed():
         }
         await db.sales.insert_one(sale)
 
-    print("✅ Demo data inserted.")
+    print("Demo data inserted.")
 
 asyncio.run(seed())
